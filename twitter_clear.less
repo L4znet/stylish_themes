@@ -1,0 +1,23 @@
+/* 1. Masquer éléments entourés en orange */
+  /* Tableau de navigation secondaire (Grok, Premium, Communities, etc.) */
+  [aria-label="Search and explore"],
+  [aria-label="Communities"],
+  [aria-label="Community Notes"],
+    [aria-label="Verified Orgs"],
+    [aria-label="Grok"],
+    [aria-label="Premium"],
+  [aria-label="Bookmarks"],
+  [aria-label="Lists"],
+  /* Bouton Post/Tweet */
+  [aria-label="Tweet"],
+  /* Who to follow */
+  /* Footer (Terms of Service...) */
+  footer, [role="contentinfo"] {
+    display: none !important;
+  }
+
+  /* 2. Masquer Trending  */
+  [aria-label="Timeline: Trending now"] {
+    display: none !important;
+  }
+
